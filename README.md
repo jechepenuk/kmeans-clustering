@@ -24,13 +24,14 @@ Similar to the above, this code asks the user for two initial centroids and has 
 
 #### Part 4: K-Means Solution (kmeans.asm)
 
+This code inclues 10 hardcoded data points and asks for two initial centroid points. The code runs parts 1-3 until the centroid pair calculated is exactly the same to previous centroid calculation, indicating no further change in the clusters. The program outputs the final clustering of the data points.
 
 
 ## Running
 
 These separate programs were designed to be run on QTSpim. Simply clone or download the zip, run each file in QTSpim and follow the instructions for user input.
 
-Optionally, you may edit any file with hardcoded inputs (comparison.asm, centroid.asm, kmeans.asm) to include your own data points to test.
+Optionally, you may edit any file with hardcoded inputs (comparison.asm, centroid.asm, kmeans.asm) to include your own data points to test. This code was designed for a maximum of 10 data points.
 
 
 ## Report
